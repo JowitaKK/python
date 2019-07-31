@@ -41,5 +41,14 @@ if animal:  # here is no input so that is how we know it value is false so is ch
 else:
     print("You did not say anything!!!")
 
+# 4)
+food = choice(['apple', 'grape', 'bacon', 'steak' ])
+
+if food == 'apple' or food == 'grape' :
+    print ("fruit")
+elif food == 'bacon' or food == 'steak':
+    print("meat")
+else:
+    print("fuuu")
 
 
