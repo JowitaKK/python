@@ -21,3 +21,31 @@ for num in range(1,11):
         smileys += "\U0001f600"
         count += 1
     print(smileys)
+
+# 2) sister game
+
+msg = input("say something:")
+
+while msg != "stop coping me " :
+    print(msg)
+    msg = input()
+print('ok You won.')
+
+# or
+# while msg != "stop coping me":
+#   msg = input (f"{msg}\n")
+# print (" ugh you won")
+
+
+# BREAK
+# while True:
+ command = input( "Type 'exit' to finish")
+ if (command == "exit"):
+     break
+
+
+for x in range (1, 200):
+    print(x)
+    if x == 3:
+        break
+
